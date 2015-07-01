@@ -19,7 +19,7 @@ y.tab.c: cal.y
 	yacc -d -y cal.y
 
 clean:
-	rm lex.yy.c
-	rm y.tab.c
-	rm y.tab.h
+	rm *.c
+	rm *.o
+	rm *.h
 	rm cal
